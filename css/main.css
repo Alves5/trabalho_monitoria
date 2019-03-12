@@ -1,0 +1,155 @@
+body{
+    background: #fff;
+}
+#menuG{
+    background: #8B1A1A;
+    border-radius: 0;
+}
+#menuP{
+    display: none;
+}
+#bemV{
+    width: 1350px;
+    height:  620px;
+    background: #000;
+    margin: -50px 0 0 0;
+}
+#bemV > img{
+    position: relative;
+    margin-top: 50px;
+}
+a{
+    color: inherit;
+}
+.ui.primary.button > a:hover{
+    color: #fff;
+}
+#img1{
+    position: relative;
+    margin: 30px 0 50px 0;
+}
+#img1 > .ui.medium.images{
+    position: relative;
+    margin: 25px 0 0 0;
+}
+#img1 > .ui.large.images > img{
+    width: 500px;
+    height: 300px;
+    margin: 15px 30px 15px 30px;
+}
+#img1 > .ui.container > p{
+    position: relative;
+    top: 5px;
+    font-size: 25px;
+}
+#second{
+    margin: 0 0 50px 0;
+}
+#second > div > .ui.piled.segment{
+    position: relative;
+    top: 60px;
+}
+
+.autoplay{
+    text-align: center;
+    width: 95%;
+    margin: 35px 0 20px 0;
+}
+.autoplay img{
+    margin: 1%;
+    width: 90% !important;
+    height: 300px !important;
+}
+.tilt{
+    position: relative;
+    left: 5%;
+}
+
+.ui.link.cards > .card{
+    margin: 20px 5px 10px 25px;
+}
+.ui.link.cards > .card > .image > img{
+    height: 191.4px;
+}
+
+#one{
+    background-image: url(../retornarFoto.php?id=1);
+    background-size: cover;
+}
+#two{
+    background-image: url(../retornarFoto.php?id=2);
+    background-size: cover;
+}
+#three{
+    background-image: url(../retornarFoto.php?id=3);
+    background-size: cover;
+}
+#four{
+    background-image: url(../retornarFoto.php?id=4);
+    background-size: cover;
+}
+#five{
+    background-image: url(../retornarFoto.php?id=5);
+    background-size: cover;
+}                                 
+#footer{
+    position: relative;
+    width: 100%;
+    bottom: -70px;
+    background: #000;
+}
+#RS > h4{
+    position: relative;
+    top: 30px;
+}
+#RS > .ui.link.list{
+    position: relative;
+    top: 30px;
+}
+#RS > h4{
+    color: #fff;
+}
+#FSR > h4{
+    color: #fff;
+}
+#FSR > p{
+    color: #fff;
+}
+#clic > .item{
+    font-size: 20px;
+}
+#ti{
+    display: none;
+}
+#im{
+    display: none;
+}
+#te{
+    display: none;
+}
+#pes{
+    position: relative;
+    top: 27px;
+    height: 30px;
+}
+#pess{
+    position: relative;
+    top: -7px;
+    margin-left: 4px;
+}
+@media only screen and (max-width: 1105px){
+    .autoplay{
+        width: 87%;
+    }
+    .autoplay img{
+        margin: 2%;
+        width: 95% !important;
+        height: 100px !important;
+    }
+    #menuP{
+        display: block;
+    }
+    #menuG{
+        display: none;
+    }
+}
