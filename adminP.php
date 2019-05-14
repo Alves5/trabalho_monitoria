@@ -8,6 +8,6 @@ if($cAdmin->validarAdmin($admin, $pwd)){
     $_SESSION['pwd'] = $pwd;
     header("Location: AdminConf.php");
 }else{
-    header("Location: home.php");
+    header("Location: index.php");
 }
 ?>

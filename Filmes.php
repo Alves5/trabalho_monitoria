@@ -31,7 +31,7 @@ echo"
   <div class='item'>
     <img src='imagens/theNet.png'>
   </div>
-    <a href='home.php' class='item'><i class='home icon'></i>Home</a>
+    <a href='index.php' class='item'><i class='home icon'></i>Home</a>
     <a href='TopFive.php' class='item'><i class='star icon'></i>TopFive</a>
   <div id='pes' class='item right'>
   <form class='ui form' action='' method='POST'>
@@ -61,7 +61,7 @@ echo"
 </div>
 
 <div class='ui left demo vertical inverted sidebar labeled icon menu'>
-  <a href='home.php' class='item'>
+  <a href='index.php' class='item'>
     <i class='home icon'></i>
     Home
   </a>
@@ -108,27 +108,6 @@ $nome = isset($_POST['genero']) ? $_POST['genero'] : null;
     }else{
 	    echo "Não existe usuario cadastrado";
    }
-
-/*$comando = new FilmesControle();
-$filme = $comando->consultaTodos();
-echo"<div class='ui link cards'>";
-foreach($filme as $item){
-echo"<div class='card'>
-  <div class='image'>
-    <img src='retornarFoto.php?id={$item->getId()}'>
-  </div>
-  <div class='content'>
-    <div class='header'>{$item->getNomeF()}</div>
-    <div class='meta'>
-      <a>{$item->getGenero()}</a></BR>
-      <a>Classificação: {$item->getClassificacao()}</a>
-    </div>
-    <div class='description'>
-      {$item->getSinopse()}
-    </div>
-  </div>
-</div>";
-    }*/
 echo"</div>";
 echo"</div>";
 echo"<div id='footer' class='ui vertical footer segment'>

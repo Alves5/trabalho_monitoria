@@ -24,12 +24,12 @@ echo"
             <div class='item'>
             <img src='imagens/theNet.png'>
             </div>
-            <a href='home.php' class='item'><i class='home icon'></i>Home</a>
+            <a href='index.php' class='item'><i class='home icon'></i>Home</a>
             <a href='Filmes.php' class='item'><i class='film icon'></i>Filmes</a>
             <a onclick='Abrir();' class='item'><i class='user icon'></i>Somente Admin</a>
         </div>
         <div class='ui left demo vertical inverted sidebar labeled icon menu'>
-            <a href='home.php' class='item'>
+            <a href='index.php' class='item'>
                 <i class='home icon'></i>
                 Home
             </a>
