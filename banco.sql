@@ -22,4 +22,11 @@ CREATE TABLE IF NOT EXISTS videos(
     tipo VARCHAR(6) NOT NULL,
     PRIMARY KEY(id)
 );
+CREATE TABLE IF NOT EXISTS letras(
+    id INT NOT NULL AUTO_INCREMENT,
+    titulo VARCHAR(20) NOT NULL,
+    texto VARCHAR(250) NOT NULL,
+    PRIMARY KEY(id)
+);
 INSERT INTO admin(nome, senha) VALUES("daniel", "123456");
+INSERT INTO letras(titulo, texto) VALUES("TITULO AQUI", "TEXTO PARA TESTES BEM AQUI");

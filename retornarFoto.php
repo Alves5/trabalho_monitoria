@@ -1,6 +1,6 @@
 <?php
 if(isset($_GET['id'])){
-    $pdo = new PDO("mysql:host=localhost;dbname=INTEGRACAO","root","123456");
+    $pdo = new PDO("mysql:host=localhost;dbname=INTEGRACAO","root","123");
     $sql ="SELECT foto, tipo FROM fotos WHERE id=:id;";
     $comando = $pdo->prepare($sql);
     $comando->bindValue(":id", $_GET["id"]);

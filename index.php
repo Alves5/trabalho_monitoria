@@ -40,15 +40,16 @@ function abrirMenu(){
             <img class='ui centered image' src='imagens/theNet.png' />
         </div>
         <div id='img1' class='ui centered grid'>
-            <div class='ui centered large images anim'>
-                <h1>Sempre buscando o melhor</h1>
+            <div class='ui centered large images anim'>";
+              require_once("lib/Controle/LetrasControle.class.php");
+                $fifi = new LetrasControle();
+                $tato = $fifi->selecionarId(1);
+                echo"<h1>{$tato->getTitulo()}</h1>
                     <img class='ui image' src='retornarFoto.php?id=1'>
                     <img class='ui image' src='retornarFoto.php?id=2'>
             </div>
             <div class='ui container anim'>
-                <p>Se você deseja que tudo corra bem quando for a procura de um filme, está no lugar certo.
-                Aqui temos as melhores dicas de flmes, e melhor, toda família pode acessar sem medo.
-                Venha explore mais e se maravilhe e se divirta bastante procurando o melhor filme para você.</p>
+                <p>{$tato->getTexto()}</p>
               </div>
         </div>
         <div id='second' class='ui centered grid'>

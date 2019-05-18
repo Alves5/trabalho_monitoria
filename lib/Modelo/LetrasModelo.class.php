@@ -1,28 +1,28 @@
 <?php
 class LetrasModelo{
     private $id;
-    private $titulos;
-    private $textos;
+    private $titulo;
+    private $texto;
 
     //GETs
     public function getId(){
         return $this->id;
     }
-    public function getTitulos(){
-        return $this->titulos;
+    public function getTitulo(){
+        return $this->titulo;
     }
-    public function getTextos(){
-        return $this->textos;
+    public function getTexto(){
+        return $this->texto;
     }
     //SETs
     public function setId($id){
         $this->id = ($id != NULL) ? $id : NULL;
     }
-    public function setTiulos($t){
-        $this->titulos = ($t != NULL) ? $t : NULL;
+    public function setTitulo($t){
+        $this->titulo = ($t != NULL) ? $t : NULL;
     }
-    public function setTextos($te){
-        $this->textos = ($te != NULL) ? $te : NULL;
+    public function setTexto($te){
+        $this->texto = ($te != NULL) ? $te : NULL;
     }
 }
 ?>

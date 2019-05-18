@@ -20,6 +20,10 @@ echo "
           <h2 id='TT' class='ui dividing header'>Título e texto</h2>
           <form class='ui form' action='homeConf.php' method='POST'>
               <div class='field'>
+                <label>Id</label>
+                <input type='text' name='text_id' value='1'>   
+              </div>
+              <div class='field'>
                 <label>Título</label>
                 <input type='text' name='Ti1' placeholder=''>
               </div>
